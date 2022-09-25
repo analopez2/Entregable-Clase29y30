@@ -7,6 +7,7 @@ module.exports = {
       env: {
         PORT: 8080,
       },
+      exec_mode: 'fork',
       args: '-p 8080',
       node_args: '--expose-gc',
     },
@@ -17,6 +18,7 @@ module.exports = {
       env: {
         PORT: 8081,
       },
+      exec_mode: 'fork',
       args: '-p 8081',
       node_args: '--expose-gc',
     },
