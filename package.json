@@ -1,0 +1,29 @@
+{
+  "name": "entregable-clase29y30",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/analopez2/Entregable-Clase29y30.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/analopez2/Entregable-Clase29y30/issues"
+  },
+  "homepage": "https://github.com/analopez2/Entregable-Clase29y30#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "minimist": "^1.2.6",
+    "express-handlebars": "^6.0.6"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
