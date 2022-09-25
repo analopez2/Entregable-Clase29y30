@@ -18,4 +18,4 @@ app.engine('handlebars', handlebars.engine());
 app.set('views', path.join(__dirname, '../public/views'));
 app.set('view engine', 'handlebars');
 
-app.use('/info', infoRouter);
+app.use('/', infoRouter);
